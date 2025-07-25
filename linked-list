@@ -3,11 +3,9 @@ using namespace std;
 struct Node {
     int data;
     Node* next;
-
-    // Constructor to initialize node
     Node(int value) {
         data = value;
-        next = nullptr;
+        next = null;
     }
 };
 
@@ -17,7 +15,7 @@ private:
 
 public:
     LinkedList() {
-        head = nullptr;
+        head = null;
     }
     void insert(int value) {
         Node* newNode = new Node(value);
